@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+p   {
+    font-size: 1.5rem;
+}
+
+h4, h3, .btnAgendar, .nav-link 
+ {
+    font-weight: 700;
+}
+
+
+.nav-link
+{
+    font-size: 1.3rem;
+}
+
+.logo
+{
+    width: 50%;
+}
+
+
+
+.btnAgendar  {
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+
+#accordionFlushExample 
+{
+    
+    margin: 0 auto;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding-left: 2%;
+}
+
+footer 
+{
+    
+    text-align: center;
+}
+
+.redes 
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
