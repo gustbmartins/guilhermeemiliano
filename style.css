@@ -3,58 +3,73 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     
+    
+    
 }
 
-p   {
-    font-size: 1.5rem;
-}
-
-h4, h3, .btnAgendar, .nav-link 
- {
-    font-weight: 700;
-}
-
-
-.nav-link
+header
 {
-    font-size: 1.3rem;
+    background-image: url("./img/Design\ sem\ nome.png");
+    height: 1000px;
 }
 
-.logo
+.logo 
 {
     width: 50%;
 }
 
-
-
-.btnAgendar  {
-    font-size: 1.1rem;
-    text-decoration: none;
-
+.nav-link
+{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
 }
 
-#accordionFlushExample 
+h4 
 {
-    
-    margin: 0 auto;
-    border-top: solid 1px;
+    font-weight: 700;
+}
+
+p 
+{
+    font-size: 1.3rem;
+}
+
+.accordion 
+{
     border-bottom: solid 1px;
     padding-left: 2%;
+    
 }
 
-footer 
+footer
 {
-    
     text-align: center;
+    margin-top: 5%;
 }
 
 .redes 
 {
-    margin-top: 2%;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    
-    
 }
 
+/*-------------------------Mobile Version--------------*/
+
+@media screen and (max-width: 480px) 
+{
+    header {
+        background-size: cover;
+        height: 200px;
+        
+        
+        
+
+
+    }
+
+    .navbar-brand
+    {
+        display: none;
+    } 
+}
