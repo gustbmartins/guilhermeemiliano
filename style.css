@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
-    
-    
+     
 }
 
 header
@@ -15,7 +14,7 @@ header
 
 .logo 
 {
-    width: 50%;
+    width: 70%;
 }
 
 .nav-link
@@ -42,10 +41,18 @@ p
     
 }
 
+.artigo {
+    text-decoration: none;
+    padding: 2%;
+}
+
 footer
 {
     text-align: center;
     margin-top: 5%;
+}
+.artigo:hover{
+    opacity: .3;
 }
 
 .redes 

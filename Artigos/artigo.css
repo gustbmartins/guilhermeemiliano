@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+     
+}
+
+.logo 
+{
+    width: 50%;
+}
+
+main {
+    max-width: 70%;
+    margin: 8% auto;
+}
+
+h1{
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card:hover {
+    opacity: .8;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.redes 
+{
+    display: flex;
+    justify-content: center;
+}
