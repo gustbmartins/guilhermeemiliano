@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+     
+}
+
+header
+{
+    background-image: url("./img/Design\ sem\ nome.png");
+    height: 1000px;
+}
+
+.logo 
+{
+    width: 70%;
+}
+
+.nav-link
+{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+}
+
+h4 
+{
+    font-weight: 700;
+}
+
+p 
+{
+    font-size: 1.3rem;
+}
+
+.accordion 
+{
+    border-bottom: solid 1px;
+    padding-left: 2%;
+    
+}
+
+.artigo {
+    text-decoration: none;
+    padding: 2%;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 5%;
+}
+.artigo:hover{
+    opacity: .3;
+}
+
+.redes 
+{
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------Mobile Version--------------*/
+
+@media screen and (max-width: 480px) 
+{
+    header {
+        background-size: cover;
+        height: 200px;
+        
+        
+        
+
+
+    }
+
+    .navbar-brand
+    {
+        display: none;
+    } 
+}
